@@ -35,7 +35,7 @@ const questionTools = [
 
   "➥ Unfollow All Following",
   "➥ Unfollow Not Followback",
-  "➥ Exit",
+  "➥ F-L-C -> Media Target",
   "\n",
 ];
 
@@ -63,7 +63,8 @@ const main = async () => {
     choice == questionTools[10] && require("./tools/fltauto.js");
     choice == questionTools[11] && require("./tools/unfollowall.js");
     choice == questionTools[12] && require("./tools/unfollnotfollback.js");
-    choice == questionTools[13] && process.exit();
+    choice == questionTools[13] && require("./tools/fmtauto.js");
+    choice == questionTools[14] && process.exit();
   } catch (err) {
     print(err, "err");
   }
