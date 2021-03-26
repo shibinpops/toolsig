@@ -35,6 +35,7 @@ const questionTools = [
 
   "➥ Unfollow All Following",
   "➥ Unfollow Not Followback",
+  "➥ Exit",
   "\n",
 ];
 
