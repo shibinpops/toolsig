@@ -21,16 +21,20 @@ const questionTools = [
   "➥ Bot Like Timeline",
   "➥ Bot Like Target User",
   "➥ Mass Delete Post/Photo",
+
   "➥ F-L-C -> Followers Target",
   "➥ F-L-C -> Followers Target [BETA]",
+
   "➥ F-L-C -> Followers Target v2",
+
   "➥ F-L-DM -> Followers Target",
   "➥ F-L-DM -> Followers Target [BETA]",
+
   "➥ F-L-C -> Hashtag Target",
   "➥ F-L-C -> Location Target",
+
   "➥ Unfollow All Following",
   "➥ Unfollow Not Followback",
-  "➥ F-L-C -> Media Target",
   "\n",
 ];
 
@@ -58,8 +62,7 @@ const main = async () => {
     choice == questionTools[10] && require("./tools/fltauto.js");
     choice == questionTools[11] && require("./tools/unfollowall.js");
     choice == questionTools[12] && require("./tools/unfollnotfollback.js");
-    choice == questionTools[13] && require("./tools/fmtauto.js");
-    choice == questionTools[14] && process.exit();
+    choice == questionTools[13] && process.exit();
   } catch (err) {
     print(err, "err");
   }
